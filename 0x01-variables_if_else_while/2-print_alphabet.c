@@ -6,13 +6,14 @@
  * Return: Always 0 (Success)
  */
 int main(void)
+{
+	int n = 97;
 
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
-
-	for (i = 0; i < 26; i++)
+	while (n <= 122)
 	{
-		putchar(alp[i]);
+		putchar(n);
+		n++;
 	}
-	putchar('\n');
-	return(0);
+	putchar ('\n');
+	return (0);
+}
